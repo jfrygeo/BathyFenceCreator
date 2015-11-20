@@ -5,7 +5,7 @@ In order to create maritime intelligence information products, one may need to r
 <i> Tool finds areas shallower than input depth
 ![](https://esri.box.com/shared/static/3ugootvigrca6p2fca9wh566oq32mdw5.png)
 
-<i> Areas shallower than input depth
+<i> Areas shallower than input depth <br>
 ![](https://esri.box.com/shared/static/1pt1ztokjl53gfyp7tyuxjycks0rdybr.png)
 
 #License
