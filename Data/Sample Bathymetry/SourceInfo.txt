@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Coastal Services Center (CSC)</origin>
+        <pubdate>20141029</pubdate>
+        <title>2013 NOAA Coastal California TopoBathy Merge Project Digital Elevation Model (DEM)</title>
+        <pubinfo>
+          <pubplace>Charleston, SC</pubplace>
+          <publish>NOAA's Ocean Service (NOS), Coastal Services Center (CSC)</publish>
+        </pubinfo>
+        <onlink>http://www.csc.noaa.gov/dataviewer</onlink>
+        <onlink>http://www.csc.noaa.gov/lidar</onlink>
+        <onlink>http://www.csc.noaa.gov</onlink>
+        <onlink>http://csc.noaa.gov/digitalcoast/dataregistry/#/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set is a raster file with 19414 columns and 18856 rows and may have been mosaiced, reprojected, and clipped from the original tiles. The data set was generated from a larger data set and includes all valid points within the requested geographic bounds. This project merged recently collected topographic, bathymetric, and acoustic elevation data along the entire California coastline from approximately the 10 meter elevation contour out to California's 3 mile state water's boundary. This metadata record describes the Digital Elevation Model (DEM) created from the lidar and multibeam data. The DEM has a 1m cell size.
+Topographic LiDAR:The topographic lidar data used in this merged project was the 2009-2011 CA Coastal Conservancy Lidar Project. The data were collected between October 2009 and August 2011. This collection was a joint effort by the NOAA Coastal Services Center (CSC); the California State Coastal Conservancy (SCC) Ocean Protection Council (OPC); Scripps Institution of Oceanography; and the Joint Airborne Lidar Bathymetry Technical Center of Expertise (JALBTCX). The data coverage extends landward 500 m from the shoreline, along the entire California coastline. The LAS classifications are as follows: 1-Unclassified, 2-Ground, 7-Noise, 9-Water, 10- Mudflats, 12-Overlap. The LAS points were manually re-classified from water and unclassified to ground in offshore areas where necessary.
+Bathymetric LiDAR: The bathymetric lidar data used in this merged project was 2009-2010 U.S. Army Corps of Engineers (USACE) Joint Airborne Lidar Bathymetry Center of Expertise (JALBTCX) lidar, provided by JALBTCX. The data were collected for the California Coastal Mapping Project (CCMP). The original data were in ASCII format and were converted to LAS v1.2. The LAS data were classified as follows: 21-Non-submerged Bathymetry, 22-Bathymetry, 23-Ignored Submerged Bathymetry/Overlap.
+Multibeam Acoustic Data: The acoustic data data used in this merged project were provided by the California Seafloor Mapping Program (CSMP) Ocean Protection Council and NOAA's National Geophysical Data Center (NGDC). The original data were in ASCII format and were converted to LAS v1.2. NOAA's VDatum software was used to vertically transform soundings from mean lower low water (MLLW) tidal datum to NAVD88 orthometric datum where necessary. The LAS data were classified as follows: 25-Submerged Acoustic, 26-Ignored Submerged Acoustic/Overlap.
+Upon receipt of the data, the NOAA Coastal Services Center (CSC) converted some of the classifications for data storage and Digital Coast provisioning purposes. The following are the classifications of data available from the NOAA Digital Coast: 1 - Unclassified, 2 - Ground, 7 - Low point (noise), 9 - Water, 11 - Bathymetry, 12 - Overlap, 13 - Submerged Acoustic, 14 - Non-Submerged Bathymetry, 15 - Ignored Submerged Bathymetry/Overlap, 16 - Ignored Submerged Acoustic/Overlap</abstract>
+      <purpose>The primary purpose is to merge recently collected topographic, bathymetric, and acoustic data along the entire California coastline from approximately the 10 meter elevation contour out to California's 3 mile state water's boundary. The result of this merge is a DEM containing the best available topographic LiDAR, bathymetric LiDAR, and multibeam acoustic data from various primary data sources.</purpose>
+      <supplinf>The Dewberry Report for the Coastal California TopoBathy Merge Project may be accessed at: http://csc.noaa.gov/htdata/lidar1_z/geoid12a/data/2612/supplemental/ca2013_noaa_topobathy_merge_m2612_final_report.pdf  A footprint of this data set may be viewed in Google Earth at: http://csc.noaa.gov/htdata/lidar1_z/geoid12a/data/2612/supplemental/ca2013_noaa_topobathy_merge_m2612.kmz</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20131030</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>calendar date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.05025315</westbc>
+        <eastbc>-121.85947470</eastbc>
+        <northbc>36.63390810</northbc>
+        <southbc>36.43748510</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bathymetry/Topography</themekey>
+        <themekey>LiDAR</themekey>
+        <themekey>Elevation</themekey>
+        <themekey>LAS</themekey>
+        <themekey>DEM</themekey>
+        <themekey>Topographic</themekey>
+        <themekey>Bathymetric</themekey>
+        <themekey>Acoustic</themekey>
+        <themekey>Multibeam</themekey>
+        <themekey>Best Fit</themekey>
+        <themekey>Merge</themekey>
+        <themekey>Interpolated Voids</themekey>
+        <themekey>Smoothed</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>California</placekey>
+        <placekey>Del Norte County</placekey>
+        <placekey>Humboldt County</placekey>
+        <placekey>Marin County</placekey>
+        <placekey>Mendocino County</placekey>
+        <placekey>Monterey County</placekey>
+        <placekey>San Francisco County</placekey>
+        <placekey>San Luis Obispo County</placekey>
+        <placekey>San Mateo County</placekey>
+        <placekey>Santa Barbara County</placekey>
+        <placekey>Santa Cruz County</placekey>
+        <placekey>Sonoma County</placekey>
+        <placekey>Ventura County</placekey>
+        <placekey>Los Angeles County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>San Diego County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Oceanic and Atmospheric Administration (NOAA) Coastal Services Center (CSC)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>843-740-1200</cntvoice>
+        <cntemail>csc.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://csc.noaa.gov/htdata/lidar1_z/geoid12a/data/2612/supplemental/ca2013_noaa_topobathy_merge_m2612.kmz</browsen>
+      <browsed>This graphic shows the lidar coverage for the Coastal California TopoBathy Merge Project DEM.</browsed>
+      <browset>kmz</browset>
+    </browse>
+  </idinfo>
+  <dataqual>
+    <logic>Covers data found in Universal Transverse Mercator (UTM) Zones 10 and 11 in California.</logic>
+    <complete>A visual qualitative assessment was performed to ensure data completeness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Lidar sources used for this DEM merge project were existing. Horizontal accuracy testing was not performed. Industry standard calibration procedures used for topographic LiDAR sensors would yield 1 meter horizontal accuracy at the 95% confidence level. For the bathymetric data, the data positions were obtained using post processed KGPS methods. The horizontal accuracy of the data is better than +/- 1.5m RMSE. As multiple acoustic datasets from multiple sources were used, the horizontal accuracy varies.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The DEMs are derived from the source LiDAR. Vertical accuracy has not been performed on the DEMs or source LiDAR data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>All data were imported into GeoCue software, converted to LAS v1.2, and transformed, if necessary, to UTM coordinate system, zone 10 North, meters, horizontal datum NAD83 (NSRS2007), vertical datum NAVD88, Geoid 09, meters. Each data type (topographic, bathymetric, and acoustic) were then tiled individually according to project specifications (1500m x 1500m).
+Data for the NOAA Coastal California Data Merge Project were provided by various sources. Topographic data were provided by NOAA in LAS format, collected for the California Coastal Mapping Project (CCMP).
+The topographic data were provided with the following classifications: Class 1 = Unclassified (This class includes vegetation, buildings, noise etc.), Class 2 = Ground, Class 7 = Noise, Class 9 = Water, Class 10 = Mudflats, Class 12 = Overlap
+Bathymetric data were provided by Joint Airborne Bathymetry LiDAR Technical Center of Expertise (JALBTCX) in ASCII format, collected for the National Coastal Mapping Program (NCMP) in 2009. Initial bathymetric data were classified in GeoCue to Class 22 = Submerged bathymetry.
+Multibeam acoustic data were downloaded from the California Seafloor Mapping Program: Ocean Protection Council (CSMP)(http://seafloor.csumb.edu/SFMLwebDATA.htm), and from NOAA's NGDC (http://maps.ngdc.noaa.gov/viewers/bathymetry/) in ASCII formats, or from USGS open file reports where available. NOAA's VDatum software (version 2.3.5) was used to vertically transform soundings from mean lower low water (MLLW) tidal datum to NAVD88 orthometric datum where necessary.</procdesc>
+        <procdate>20121214</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Topographic data: Reclassification of offshore islands and pinnacles was a critical component to the success of the final merged product. Tiles within 100m of the coastal shoreline were selected for review and manual classification. Each tile was brought into TerraScan and a temporary surface model was created from the topographic ground points (class 2). Using aerial imagery as a guide, the coastline was examined for any exposed islands that may be incorrectly classified as water in the LAS. Once located, points were reclassified from water (class 9) to ground (class 2) or from unclassified (class 1) to ground. Date for this process step is 20130201-20130412.</procdesc>
+        <procdate>20130412</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Topographic-Bathymetric Seamline: All breaklines provided by NOAA were merged into a single polygon feature class. This became the foundation of the initial seamline. Areas containing both topographic and bathymetric data along the coastline were reviewed on a tile-by-tile basis using difference rasters. Because the topographic data had better horizontal resolution and vertical accuracy than the bathymetric data, it generally took priority over bathymetric data in overlap areas. However, a smoother transition between the topographic and bathymetric LiDAR datasets may be achieved by modifying the extent of the topographic data in favor of the bathymetric data. In these cases, the breakline was adjusted accordingly. The final polygon feature class was used for reclassification of LAS points in TerraScan. The polygon was converted to a polyline in Arc and clipped to the extent of the coastal shoreline. This final polyline was used as basis for the creation of the DEM smoothing buffers. Date for this process step is 20130222-20130510.</procdesc>
+        <procdate>20130510</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Acoustic-Acoustic Seamline (Production Block 2b):In surveys with multiple resolutions, the best available resolution data was prioritized and reclassified using TerraScan software. A best fit line was not produced. Between surveys, a best fit line was generated by creating difference rasters and manually digitizing a new boundary.</procdesc>
+        <procdate>20130219</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Acoustic-Acoustic Seamline (Production Blocks 3 and 4):In bathymetric attributed grid (BAG) surveys with multiple resolutions, the best available resolution data was prioritized and reclassified using TerraScan software. A best fit line was not produced. Between unique surveys, a best fit line was generated by creating difference rasters and manually digitizing a new boundary along areas with minimal offset. Date for this process setp 20130501-20130621.</procdesc>
+        <procdate>20130621</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro Earthdata</cntorg>
+              <cntper>Rich McClellan</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301.948.8550</cntvoice>
+            <cntfax>301.963.2064</cntfax>
+            <cntemail>rmcclellan@fugro.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Bathymetric-Acoustic Seamline (Production Block 2b): The bathymetric-acoustic seamline was generated using the same methodology as the acoustic overlap seamline. The final polyline was used as basis for the creation of the DEM smoothing buffers.</procdesc>
+        <procdate>20130227</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Bathymetric-Acoustic Seamline (Production Blocks 3 and 4):The bathymetric-acoustic seamline was generated using the same methodology as the acoustic overlap seamline, using difference rasters and manually digitizing seamlines with minimal offset. The final polyline was used as basis for the creation of the DEM smoothing buffers. The date for this process step is 20130501-20130621.</procdesc>
+        <procdate>20130621</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro Earthdata</cntorg>
+              <cntper>Rich McClellan</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301.948.8550</cntvoice>
+            <cntfax>301.963.2064</cntfax>
+            <cntemail>rmcclellan@fugro.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Bathymetric data: In areas of overlap where topographic data were given priority over bathymetric data, overlapping bathymetric points were moved to class 21(non-submerged bathymetry). This was performed in TerraScan using the final seamline polygon. A minimum of three (3) data points within a 15m eter radius is required for inclusion in the DEM. An extent polygon is needed to accomplish this task. Topographic ground points (class 2) and bathymetric points (class 22) were converted to a masspoint feature class in Arc. The masspoints were used as the input in the Aggregate Points tool in Arc with a set distance of 15m. After the final extent polygons were generated, class 22 bathymetric points not within these polygons were moved to class 23 in TerraScan.  Points outside the extent polygon remained in class 21/22. Finally, to remove above-ground artifacts from the bathymetric data, all class 22 points with elevations above +1m were reassigned to class 21 using an automated process in TerraScan. This removed docks, piers, bridges, and other miscellaneous artifacts from the point cloud. Bathymetric data between 0-1m elevation were left in class 22 to avoid classifying out too many data points in the nearshore areas. Bathymetric elevations between 0-1m were evaluated on a tile-by-tile basis and moved to class 21 if necessary. The date for this process step is 20130304-20130517.</procdesc>
+        <procdate>20130517</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Acoustic data (Production Block 2b):Each area of the acoustic data was reclassified from the temporary class codes to the final class 25 (submerged multibeam acoustic) and class 26 (acoustic overlap) designations using the polygons generated from the acoustic-acoustic seamline boundaries. Best resolution data was prioritized in multi-resolution surveys. Best fit seamline was used between surveys.</procdesc>
+        <procdate>20130306</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Acoustic data (Production Blocks 3 and 4):Each area of the acoustic data was reclassified from the temporary class codes to the final class 25 (submerged multibeam acoustic) and class 26 (acoustic overlap) designations. Voids in high resolution acoustic BAG data were filled with available lower resolution BAG data for each acoustic data set. This is an automated process using Fugro proprietary software specially developed for this project. This process results in a merged LAS point cloud for each survey location utilizing the best resolution BAG data. The ignored points were classified as class 26. The same filling process was used in case of NCCMP data for survey locations where data of various acquisition dates were available within a survey. Priority was given to data collected in 2010, following by 2008 and older datasets. Surface subtraction images were generated and utilized to digitize best fit line between overlapping acoustic project data sets. Overlapping acoustic datasets were reclassified and merged based on the best fit line using LAS mosaic software developed by Fugro. The merged point cloud data for each acoustic project was tiled to the project required tiling scheme. The date for this process step is 20130501-20130621.</procdesc>
+        <procdate>20130621</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro Earthdata</cntorg>
+              <cntper>Rich McClellan</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301.948.8550</cntvoice>
+            <cntfax>301.963.2064</cntfax>
+            <cntemail>rmcclellan@fugro.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Bathymetric data (Production Block 2b):In overlapping areas between acoustic and bathymetric datasets, priority was given to the acoustic dataset due to more efficient coverage and higher resolution where available. With exception of two instances where best fit line was used, the bathymetric-acoustic seamline was represented by geographic extent of class 25. The bathymetric data within this extent was reclassified to class 23.</procdesc>
+        <procdate>20130306</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Reclassification of Bathymetric data (Production Blocks 3 and 4):In overlapping areas between acoustic and bathymetric datasets, priority was given to the acoustic dataset due to more efficient coverage and higher resolution where available. With exception of two instances where best fit line was used, the bathymetric-acoustic seamline was represented by geographic extent of class 25. The bathymetric data within this extent was reclassified to class 23. Acoustic point cloud and bathymetric lidar data were merged using TSCAN project. The date for this process step is 20130501-20130621.</procdesc>
+        <procdate>20130621</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro Earthdata</cntorg>
+              <cntper>Rich McClellan</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301.948.8550</cntvoice>
+            <cntfax>301.963.2064</cntfax>
+            <cntemail>rmcclellan@fugro.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Topographic-Bathymetric-Acoustic data merge process: Class 2, topographic ground, class 22, bathymetric ground, and class 25, acoustic ground, LiDAR points were exported from the combined LAS files into an Arc Geodatabase (GDB) in multipoint format. An ESRI Terrain was generated using 0.7 average point spacing. The ESRI Terrain was converted to an ERDAS Imagine raster with a 1 meter cell size using the natural neighbors interpolation method. The resulting raster was smoothed to reduce vertical offsets between the topographic-bathymetric and bathymetric-acoustic datasets. The best fit seamlines were used as the starting point for the smoothing process of the DEM. Using the raster as a visual guide, the seamlines were reviewed manually on a tile by tile basis in Global Mapper. The lines were clipped and removed in areas where vertical offests were not visible in the DEM or where cliffs, berms, voids, or other features would be not be smoothed. This prevents any unnecessary alteration of the original elevation data. A 10m radius buffer polygon was generated in Arc around the remaining portions of the best fit line. In Arc, the polygon buffer was used to extract a raster "strip" that would be used in the smoothing process. After extraction, the cell values in this raster strip were resampled to 3m cell size using mean aggregation. The resulting raster strip was resampled back to a 1m cell size using bilinear interpolation. This process produced a raster strip that would be used to smooth between data sources. The raster, the raster strip, and the seamline polygon buffer were opened in Global Mapper software. To ensure that raster values are not automatically resampled in Global Mapper when performing the final export, the default raster interpolation option was changed to Nearest Neighbor (none) before any further processing was performed. The seamline polygon buffer was selected in Global Mapper and the raster strip was feathered by 8 pixels. This eliminated any hard edges that would normally be produced by merging the two raster datasets. The two rasters were exported as one merged raster from Global Mapper using the following parameters: File Type: ERDAS Imagine (IMG) Cell Size: 1x1 m Data: 32-bit floating elevation Create Compressed File (UNCHECKED) Interpolate Gaps (CHECKED) The DEM was reopened in ESRI ArcGIS software and QCed. Any alignment shifts, projection issues, or other problems were corrected as necessary. This satisfies the Smoothed with Interpolated Voids portion of the project. To produce the Smoothed with Voids DEM, a void mask was first generated from the masspoints using the point aggregate tool in Arc. Aggregation distance was set to 15m. Extents were generated past the project boundary to prevent excessive voids along the edges. The resulting data extent was buffered by 1m. This prevents points on the edge of the extents from being included in the final void mask. The buffered extent was inverted using the symmetrical difference tool in Arc. These areas represent the new initial data voids layer. Multipart features were exploded and area calculations were made on the resulting void polygons. Void polygons smaller than 225 sq meters in area were removed. Remaining void polygons within the topographic area not within breakline boundaries were also removed. Inland breaklines were converted to polygons and added to the void mask as necessary. The void mask was converted to raster format and used to remove voids from the smoothed raster. This satisfies the Smoothed with Voids portion of the project. Each DEM was clipped to the project boundary.The date for this process step is 20130420-20130717.</procdesc>
+        <procdate>20130117</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Each DEM was clipped to individual tiles. Dewberry uses a proprietary tool that clips the area DEMs to each tile located within the final Tile Grid, names the clipped DEM to the Tile Grid Cell name, and verifies that final extents are correct. All individual tiles were loaded into Global Mapper for the last review. During this last review, products are checked to ensure full, complete coverage, no issues along tile boundaries, tiles seamlessly edge-match, and that there are no remaining processing artifacts in the dataset.The date for this process step is 20130422-20130719</procdesc>
+        <procdate>20130719</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Dewberry - Geospatial Services Group</cntorg>
+              <cntper>Josh Novac</cntper>
+            </cntorgp>
+            <cntpos>Project Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1000 N. Ashley Drive, Suite 801</address>
+              <city>Tampa</city>
+              <state>FL</state>
+              <postal>33602</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>813.421.8632</cntvoice>
+            <cntemail>jnovac@dewberry.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The dataset has been mosaiced, reprojected, and clipped as needed from the original input files using the gdalwarp command GDAL 1.10.1, released 2013/08/26. Gdalwarp options included -t_srs EPSG:4269 -of GTiff -co COMPRESS=LZW -co TILED=YES  -co BIGTIFF=YES  -r BILINEAR. 
+</procdesc>
+        <procdate>20141029</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid cell</rasttype>
+      <rowcount>18856</rowcount>
+      <colcount>19414</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>1.011759555e-05</latres>
+        <longres>0.000010117652206</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>NAVD88</altdatum>
+        <altres>0.0001</altres>
+        <altunits>Meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Coastal Services Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave.</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1200</cntvoice>
+        <cntemail>csc.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Any conclusions drawn from the analysis of this information are not the responsibility of the National Oceanic and Atmospheric Administration (NOAA), Dewberry, Fugro Earthdata, or the NOAA Coastal Services Center or its partners.</distliab>
+    <custom>This data can be obtained on-line at the following URL:http://www.csc.noaa.gov/dataviewer/index.html?action=advsearch&amp;qType=in&amp;qFld=ID&amp;qVal=2616 This data set is dynamically generated based on user-specified parameters.</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20140304</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Coastal Services Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave.</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1200</cntvoice>
+        <cntemail>csc.info@noaa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
